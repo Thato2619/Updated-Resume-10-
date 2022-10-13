@@ -237,12 +237,12 @@ sup {
 }
 
 a {
-  color: #004f2d;
+  color: #7ea590;
   text-decoration: underline;
   ;
 }
 a:hover {
-  color:#004f2d !important; 
+  color:#7ea590 !important; 
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11435,7 +11435,18 @@ section.resume-section .resume-section-content {
   }
 }
 
+/*Change background colour of Navbar*/
 .bg-primary{
   background-color: #004f2d !important;
   color: #FBFBF2;
+}
+
+/*Change text colour to Green sheen*/
+.text-primary{
+  color:#7EA590 !important;
+}
+
+/*Change background colour of Navbar*/
+body{
+  background-color: #FBFBF2;
 }
